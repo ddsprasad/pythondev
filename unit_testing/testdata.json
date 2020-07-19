@@ -1,0 +1,17 @@
+{"metric_name":"count_of_transactions",
+  "qclass_group":"basic",
+  "metric_function":"default",
+  "question":"Show me  count of transcations by region for week 10 2019 for TMC & ACCESSORIES",
+  "table_qry":"SELECT WEEK AS `Time`,RGN_DESC AS `Region`,VSB_EMO_SPCE AS `Emotional Space`,count(distinct(shpg_trxn_id)) AS `count_of_transactions` FROM CS_FCT_VSB_RT_SALES_TBL WHERE WEEK IN (201910) AND VSB_EMO_SPCE IN ('TMC','ACCESSORIES') GROUP BY RGN_DESC, VSB_EMO_SPCE ORDER BY `count_of_transactions` DESC",
+  "tvf_parameters": ["count_of_transactions",
+  "",
+  "RGN_DESC AS `Region`,VSB_EMO_SPCE AS `Emotional Space`",
+  "`count_of_transactions`",
+  "WEEK",
+  "IN (201910)",
+  "VSB_EMO_SPCE IN ('TMC','ACCESSORIES')",
+  "RGN_DESC, VSB_EMO_SPCE",
+  "",
+  "`count_of_transactions` DESC",
+  ""
+        ]}

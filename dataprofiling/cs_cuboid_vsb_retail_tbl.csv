@@ -1,0 +1,15 @@
+column_names,schema_name,table_name,data_types,num_rows,num_null,num_spaces,num_blank,count,mean,stddev,min,counts_min,max,counts_max,num_distinct,most_freq_value,most_freq_value_count,least_freq_value,least_freq_value_count
+cuboidid,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,D|S|SK-2DS|2R|3C|3F|3P,1856,M|S|SK-2DS|2R|3C|3F|3P,376,2,D|S|SK-2DS|2R|3C|3F|3P,1856,M|S|SK-2DS|2R|3C|3F|3P,376
+Time,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,1713416.0654121863,680456.205457557,201912,208,202001,168,16,201912,208,2020003,87
+store,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,1351.9910394265232,27.40387888006055,1350,2220,1771,4,5,1350,2220,1603,2
+sku,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,2.4357111456541218E7,328657.65434837906,22811019,2,25131499,16,208,24511491,18,23893520,2
+district,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,HERALD SQUARE,2220,W LOS ANGELES,4,5,HERALD SQUARE,2220,N VIRGINIA,2
+region,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,NY METRO,2222,SOUTHWEST,4,3,NY METRO,2222,SOUTHWEST,4
+category,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,ITEM BEAUTY,578,TMC,1654,2,TMC,1654,ITEM BEAUTY,578
+form,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,ASSORTED,3,MIST,673,10,LOTION,893,BLANK,2
+planning_silhouette,cmm_db,cs_cuboid_vsb_retail_tbl,string,2232,0.0,0,0,2232,,,0.08 OZ,2,TUBE,418,12,8.0 OZ,893,0.08 OZ,2
+net_cost,cmm_db,cs_cuboid_vsb_retail_tbl,"decimal(18,5)",2232,0.0,0,0,2232,74.279103943,236.6617453095583,-5.40000,2,3819.36000,1,1241,0.00000,84,1.13000,1
+net_sales,cmm_db,cs_cuboid_vsb_retail_tbl,"decimal(18,5)",2232,0.0,0,0,2232,158.133960573,383.776453302392,-29.50000,2,6009.40000,1,1249,2.99000,65,58.33000,1
+sales_quantity,cmm_db,cs_cuboid_vsb_retail_tbl,"decimal(18,5)",2232,0.0,0,0,2232,39.416666667,121.23803780516724,-3.00000,4,2103.00000,1,240,1.00000,202,110.00000,1
+ins_ts,cmm_db,cs_cuboid_vsb_retail_tbl,timestamp,2232,,0,0,,,,2020-07-18 20:26:24,0,2020-07-18 20:26:24,0,1,2020-07-18 20:26:24,2232,2020-07-18 20:26:24,2232
+upd_ts,cmm_db,cs_cuboid_vsb_retail_tbl,timestamp,2232,,0,0,,,,,0,,0,1,,2232,,2232
